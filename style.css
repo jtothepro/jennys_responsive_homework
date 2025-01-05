@@ -28,7 +28,7 @@ h3 {
   margin: 0;
 }
 
-h1 {
+.hero h1 {
   font-size: 96px;
   font-weight: bold;
   font-family: "Playfair Display", serif;
@@ -36,13 +36,26 @@ h1 {
   padding-bottom: 40px;
 }
 
-h2 {
+.hero h2 {
   font-family: var(--font-Poppins);
   font-size: 24px;
   font-weight: normal;
   color: #272142;
 }
+h2 {
+  font-family: var(--font-Playfair);
+  font-weight: bold;
+  font-size: 64px;
+  margin-top: 20px;
+  margin-bottom: 20px;
+}
 
+.text {
+  font-family: var(--font-Poppins);
+  line-height: 30;
+  font-size: 16px;
+  color: #272142;
+}
 h3 {
   font-size: 24px;
   opacity: 0.7;
@@ -52,6 +65,7 @@ h3 {
   font-size: 18px;
   margin-top: 30px;
   margin-bottom: 30px;
+  text-align: center;
 }
 p {
   font-size: 18px;
