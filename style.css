@@ -2,6 +2,8 @@
   --primary-color: #6c63ff;
   --secondary-color: #f9f7fe;
   --box-shadow: 0 5px 10px rgba(0, 0, 0, 0.3);
+  --font-Poppins: "Poppins", sans-serif;
+  --font-Playfair: "Playfair Display", serif;
 }
 
 body {
@@ -9,6 +11,7 @@ body {
 }
 .hero {
   background: var(--secondary-color);
+  padding: 160px 20px;
 }
 .hero p {
   font-family: "Poppins", sans-serif;
@@ -32,7 +35,7 @@ h1 {
 }
 
 h2 {
-  font-family: "Poppins", sans-serif;
+  font-family: var(--font-Poppins);
   font-size: 24px;
   font-weight: normal;
   color: #272142;
@@ -60,12 +63,14 @@ p {
 
 .primary-link {
   border-radius: 4px;
-  padding: 30px 18px;
+  padding: 18px 30px;
   text-decoration: none;
   text-transform: capitalize;
   background: var(--primary-color);
   box-shadow: var(--box-shadow);
   color: white;
+  font-size: 18px;
+  font-family: "Poppins", sans-serif;
 }
 .primary-link:hover {
   color: white;
@@ -73,11 +78,13 @@ p {
 
 .secondary-link {
   border-radius: 4px;
-  padding: 30px 18px;
+  padding: 18px 30px;
   text-decoration: none;
   text-transform: capitalize;
   color: var(--primary-color);
   border: 1px solid var(--primary-color);
+  font-size: 18px;
+  font-family: "Poppins", sans-serif;
 }
 
 .homepage-link {
