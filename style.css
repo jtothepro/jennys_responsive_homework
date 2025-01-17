@@ -9,6 +9,13 @@
 body {
   margin-top: 100px;
 }
+.navbar {
+  align-content: end;
+}
+nav a {
+  color: #272142;
+}
+
 .hero {
   background: var(--secondary-color);
   padding: 160px 20px;
