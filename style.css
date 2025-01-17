@@ -168,6 +168,9 @@ p {
   color: #272142;
   text-align: left;
 }
+.content-container h3 {
+  text-align: left;
+}
 
 .content-container p {
   font-family: var(--font-Poppins);
