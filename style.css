@@ -205,6 +205,54 @@ img {
   margin: 20px 20px 20px 20px;
 }
 
+footer {
+  margin: 50px 0;
+}
+footer .work-inquiry {
+  background: var(--secondary-color);
+  padding: 50px 120px;
+  margin-bottom: 40px;
+  margin-top: 0;
+  border-radius: 10px;
+}
+footer .work-inquiry a {
+  text-align: center;
+}
+footer .work-inquiry p {
+  margin: 0;
+}
+footer .work-inquiry h4 {
+  font-family: var(--font-Playfair);
+  font-size: 48px;
+  font-weight: bold;
+}
+
+footer .footer-email {
+  text-decoration: none;
+  color: black;
+  font-size: 24px;
+  text-align: center;
+  font-family: var(--font-Poppins);
+}
+
+footer .footer-email:hover {
+  color: var(--primary-color);
+}
+
+footer .social-links a {
+  padding: 10px 16px;
+  margin: 0 20px;
+  color: var(--primary-color);
+  background-color: var(--secondary-color);
+  font-size: 18px;
+  border-radius: 50%;
+}
+
+footer .social-links a:hover {
+  color: white;
+  background-color: var(--primary-color);
+}
+
 @media (max-width: 900px) {
   .hero h1 {
     font-size: 36px;
@@ -246,5 +294,14 @@ img {
   .content {
     padding: 0;
     text-align: center;
+  }
+  footer .work-inquiry {
+    padding: 30px;
+  }
+  .btn {
+    font-size: 18px;
+  }
+  h4 {
+    font-size: 10px;
   }
 }
