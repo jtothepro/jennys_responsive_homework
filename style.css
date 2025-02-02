@@ -297,6 +297,8 @@ footer .social-links a:hover {
   }
   footer .work-inquiry {
     padding: 30px;
+    margin-left: 30px;
+    margin-right: 30px;
   }
   .btn {
     font-size: 18px;
