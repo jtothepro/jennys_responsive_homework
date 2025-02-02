@@ -148,7 +148,7 @@ p {
 }
 
 .content-container {
-  padding: 160px 20px;
+  padding: 60px 20px;
   margin-bottom: 40px;
   margin-top: 0;
 }
@@ -176,7 +176,7 @@ p {
   text-align: left;
 }
 .content-container h3 {
-  text-align: left;
+  text-align: center;
 }
 
 .content-container p {
